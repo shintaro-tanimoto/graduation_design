@@ -1,0 +1,50 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# === Virtual environments (incl. nested) ===
+.venv/
+venv/
+**/.venv/
+
+# === GNN (not used in the graduation design — excluded) ===
+IEC/pytorch_project/
+IEC/model/gnn/
+
+# === Generated data / experiment outputs (code only) ===
+IEC/gen_history/
+IEC/archive/
+IEC/archive_backup/
+IEC/log/
+IEC/gen_log/
+IEC/legacy/gen_log/
+IEC/legacy/test_gnn_gen/
+IEC/legacy/elite/
+IEC/legacy/gen/
+*.log
+training_log.txt
+
+# === Binary / data assets (code only) ===
+*.obj
+*.pdf
+*.pkl
+*.pt
+*.pth
+*.png
+*.jpg
+*.jpeg
+*.csv
+poster/
+mokei_picture/
+output/
+input/
+
+# === Large 3D model (handled separately via GitHub Pages docs) ===
+*.glb
+
+# === Local agent / editor config ===
+.claude/
+**/.claude/
+.DS_Store
