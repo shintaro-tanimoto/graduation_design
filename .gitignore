@@ -43,6 +43,8 @@ input/
 
 # === Large 3D model (handled separately via GitHub Pages docs) ===
 *.glb
+# ...but ship the Draco-compressed model used by GitHub Pages
+!docs/model.glb
 
 # === Local agent / editor config ===
 .claude/
